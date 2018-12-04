@@ -65,7 +65,7 @@
     </div>
   </nav>
 <div class="container">
-  <div class="row"> 
+  
 
  <ul class="nav nav-tabs" role="tablist">
     <li class="nav-item">
@@ -83,16 +83,19 @@
   <div class="tab-content">
     <div id="student" class="container tab-pane active"><br>
 	
-		<div class="dropdown">
-			<button class="btn btn-secondary dropdown-toggle" type="button" id="ClassDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-			Select Class
-			</button>
-			<div class="dropdown-menu" aria-labelledby="ClassDropdown" position="absolute">
-				<button class="dropdown-item" type="button">Class VIII</button>
-				<button class="dropdown-item" type="button">Class IX</button>
-				<button class="dropdown-item" type="button">Class X</button>
-			</div>
-		</div>
+  <form>
+	<div class="form-row">
+      <div class="form-group col-md-4">
+      <label for="inputState">Class</label>
+      <select id="inputState" class="form-control">
+        <option selected>Class X</option>
+        <option>Class IX</option>
+		<option>Class VIII</option>
+      </select>
+    </div>
+	</div>
+	</form>
+	
 			
 			<form>
             <div class="inner-div">
@@ -228,6 +231,6 @@
     </div>
 	</div>
   
- </div>
+
 </div> 
  </section>
